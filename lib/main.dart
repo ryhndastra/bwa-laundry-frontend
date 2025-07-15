@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:pasti_laundry/config/app_colors.dart';
 
 void main() {
   runApp(const MainApp());
@@ -13,17 +14,17 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: Colors.green,
+        primaryColor: AppColors.primary,
         scaffoldBackgroundColor: Colors.white,
         colorScheme: ColorScheme.light(
-          primary: Colors.green,
-          secondary: Colors.greenAccent[400]!,
+          primary: AppColors.primary,
+          secondary: AppColors.secondary,
         ),
         textTheme: GoogleFonts.latoTextTheme(),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ButtonStyle(
             backgroundColor: MaterialStateProperty.resolveWith<Color>(
-              (states) => Colors.green,
+              (states) => AppColors.primary,
             ),
             shape: MaterialStateProperty.resolveWith<OutlinedBorder>(
               (states) => RoundedRectangleBorder(
