@@ -63,7 +63,10 @@ class AppResponse {
                 onPressed: () {
                   Navigator.pop(context);
                 },
-                child: const Text('Close'),
+                child: const Text(
+                  'Close',
+                  style: TextStyle(color: Colors.white),
+                ),
               ),
             ),
           ],
