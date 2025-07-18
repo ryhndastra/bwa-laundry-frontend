@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:pasti_laundry/config/app_colors.dart';
+import 'package:pasti_laundry/pages/auth/register_page.dart';
 
 void main() {
   runApp(const MainApp());
@@ -41,7 +42,7 @@ class MainApp extends StatelessWidget {
           ),
         ),
       ),
-      home: Scaffold(body: Center(child: Text('Hello World!'))),
+      home: RegisterPage(),
     );
   }
 }
