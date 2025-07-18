@@ -20,7 +20,7 @@ PastiLaundry adalah aplikasi mobile frontend berbasis **Flutter** yang terhubung
 - Flutter
 - Dart
 - HTTP Package
-- Provider (untuk state management)
+- Flutter Riverpod (untuk state management)
 - Laravel API (backend)
 
 ---
