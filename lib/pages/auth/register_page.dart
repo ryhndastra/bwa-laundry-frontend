@@ -242,7 +242,7 @@ class _RegisterPageState extends ConsumerState<RegisterPage> {
                                 child: InkWell(
                                   borderRadius: BorderRadius.circular(10),
                                   onTap: () {
-                                    // Navigator.pop(context);
+                                    Navigator.pop(context);
                                   },
                                   child: const Center(
                                     child: Text(
