@@ -7,7 +7,9 @@ import 'package:pasti_laundry/config/failure.dart';
 
 class AppResponse {
   static Map data(Response response) {
-    DMethod.printResponse(response);
+    DMethod.printResponse(response); // tetap, kalau kamu butuh
+    debugPrint('FULL BODY: ${response.body}');
+
     switch (response.statusCode) {
       case 200: //read
       case 201: //create, update
