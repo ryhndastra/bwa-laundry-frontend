@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:pasti_laundry/config/app_colors.dart';
+import 'package:pasti_laundry/pages/auth/login_page.dart';
 import 'package:pasti_laundry/pages/auth/register_page.dart';
 
 void main() {
@@ -43,7 +44,8 @@ class MainApp extends StatelessWidget {
           ),
         ),
       ),
-      home: RegisterPage(),
+      // home: RegisterPage(),
+      home: LoginPage(),
     );
   }
 }
